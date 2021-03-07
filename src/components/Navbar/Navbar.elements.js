@@ -16,20 +16,20 @@ export const Nav = styled.nav`
 `;
 
 export const NavbarContainer = styled(Container)`
+  height: 80px;
   display: flex;
   justify-content: space-between;
-  height: 80px;
   ${Container}
 `;
 
 export const NavLogo = styled(Link)`
   color: #fff;
+  display: flex;
   justify-self: flex-start;
+  align-items: center;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  display: flex;
-  align-items: center;
 `;
 
 export const NavIcon = styled(FaMagento)`
