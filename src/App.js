@@ -11,7 +11,6 @@ function App() {
   return (
     <Router>
       <GlobalStyle />
-
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
